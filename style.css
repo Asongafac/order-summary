@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --pale:  hsl(225, 100%, 94%);
+    --veryPale:  hsl(225, 100%, 98%);
+    --darkBlue: hsl(223, 47%, 23%);
+     --desaturatedBlue: hsl(224, 23%, 55%);
+     --brightBlue:  hsl(245, 75%, 52%);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+}
+
+.main{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 375px;
+    border-radius: 20px;
+}
+
+.main .image img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text{
+    /* width: 451px; */
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.text h2{
+    text-align: center;
+    font-weight: 900;
+    color: var(--darkBlue);;
+}
+
+p{
+    text-align: center;
+    color: rgb(135, 133, 133);
+    font-weight: 700;
+    padding: 0px 10px 0px 10px;
+    font-size: 14px
+}
+
+.price{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--veryPale);
+    border-radius: 10px;
+    /* background-color: var(--desaturatedBlue); */
+}
+
+a{
+    color: var(--brightBlue);
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.price .real_price{
+    display: flex;
+    /* border: 1px solid red; */
+    /* padding-left: 20px; */
+}
+
+.price .real_price nav h4{
+    /* color: var(--veryPale); */
+    font-weight: 500;
+}
+
+.price .real_price nav{
+    padding-left: 20px;
+}
+
+.price .real_price nav h3{
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.price .real_price nav h4{
+    color:rgb(135, 133, 133);
+}
+
+button{
+    width: 100%;
+    background-color: var(--brightBlue);
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    /* box-shadow: var(--brightBlue) 0px 0px 4px 4px; */
+}
+
+.text .p{
+    margin-top: 20px;
+    font-weight: 900;
+}
