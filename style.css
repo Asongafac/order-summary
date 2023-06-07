@@ -32,6 +32,15 @@ body{
     border-radius: 20px;
 }
 
+@media screen and (max-width: 800px){
+    .main{
+        width: 300px;
+    }
+    .text{
+        padding: 20px;
+    }
+}
+
 .main .image img{
     width: 100%;
     height: auto;
@@ -117,8 +126,14 @@ button{
     border: none;
     /* box-shadow: var(--brightBlue) 0px 0px 4px 4px; */
 }
+button:hover{
+    color: 
+}
 
 .text .p{
     margin-top: 20px;
     font-weight: 900;
+}
+.p:hover{
+    cursor: pointer;
 }
